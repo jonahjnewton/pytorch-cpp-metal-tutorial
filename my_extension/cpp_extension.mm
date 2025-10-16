@@ -93,4 +93,4 @@ torch::Tensor add_tensors_metal(torch::Tensor a, torch::Tensor b, const std::str
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
     m.def("add_tensors_metal", &add_tensors_metal, "Add two tensors using Metal");
-}4
+}
